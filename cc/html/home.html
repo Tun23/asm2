@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- CSS only -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link href="../css/style.css" rel="stylesheet">
+    <title>Home</title>
+   
+</head>
+
+<body>
+  <section id="banner">
+    <div class="banner-text"> 
+      <h1>WELCOME TO OUR WORLD!!</h1>
+      <p>THE GUNDAMS LAND</p>
+      <div class="banner-btn">
+        <a href="product.html"><span></span> DISCOVER NOW</a>
+        <a href="hhttps://www.nshop.com.vn/"><span></span>VISIT US </a>
+      </div>
+    </div>
+  </section>
+  <div id="nav">
+    <nav1>
+      <ul>
+        <li><a href="login.html">LOGIN/REGISTER</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+      </ul>
+    </nav1>
+  </div>
+  <div id="menubtn">
+    <img src="../pic/bar.png" id="menu">
+  </div>
+  <script>
+    var menu =document.getElementById("menu")
+    var menubtn =document.getElementById("menubtn")
+    var nav =document.getElementById("nav")
+    nav.style.right = "-250px";
+    menubtn.onclick = function()
+    {
+      if(nav.style.right == "-250px"){
+        nav.style.right = "0";
+        menu.src ="../pic/close.png";
+      }
+      else{
+        nav.style.right = "-250px";
+        menu.src = "../pic/bar.png"
+      }
+    }
+  </script>
+
+  
+   
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>

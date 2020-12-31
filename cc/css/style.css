@@ -1,0 +1,134 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#banner
+{
+    background: url(../pic/logo1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.banner-text
+{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 100px;
+}
+.banner-text hl
+{
+    font-size: 130px;
+    font-family: cursive;
+    color: #000;
+}
+.banner-text p
+{
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+}
+.banner-btn
+{
+    margin: 70px auto 0;
+}
+.banner-btn a
+{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 150px 300px;
+    padding: 12px 0;
+    color: bisque;
+    border: .5px solid yellow;
+    font-size: large;
+    font-weight: 600;
+}
+#nav
+{
+    width: 220px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: #d94545;
+    z-index: 2;
+    transition: 0.5s;
+}
+nav1 ul li
+{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav1 ul li a
+{
+text-decoration: none;
+color: beige;
+}
+#menubtn
+{
+    width: 40px;
+    height: 40px;
+    background: orange;
+    text-align: center;
+    position: fixed;
+    right: 5px;
+    top: 10px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menubtn img
+{
+    width: 20px;
+    margin-top: 10px ;
+}
+.productpg
+{
+background: #f5ed0a;
+ text-align: center;
+}
+.productpg ul
+{
+    display: inline-flex;
+    list-style:none;
+    color: black; 
+}
+.productpg ul li
+{
+    width: 350px;
+    padding: 15px;
+    margin: 15px; 
+}
+.productpg ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.active, .productpg ul li:hover
+{
+    background: #e6e5e3;
+    border-radius: 3px;
+}
+.col-4
+{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width: 90%; 
+}
+h4
+{
+    font-weight: 600;
+    text-align: center;
+}
+.col-4 p
+{
+    font-size: 14px;
+    text-align: center;
+}
+
